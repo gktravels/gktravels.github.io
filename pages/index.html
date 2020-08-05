@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> G.K. Travels | Travel the world at low cost, 
+				with high satisfaction, and for endless excellent experience! </title>
+				
+		<!-- ** See notes at bottom of page ** -->
+		<link href="../images/favicon.ico" rel="shortcut icon" />
+		
+		<link href="../css/styles.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body class="with-alert">
+	
+		<!-- Alert -->
+		<a href="coronavirus.html" id="alert">
+			ALERT: All tours scheduled to depart between March 12th and October 31st, 2020
+			have been cancelled due to the ongoing coronavirus pandemic. Tour descriptions
+			may not be up-to-date concerning this issue. Click on this banner for more
+			information. </a>
+	
+		<!-- Navigation Bar -->
+		<ul id="nav">
+			<li class="current"> <a href="index.html">Home</a> </li>
+			<li> <a href="about.html">About Us</a> </li>
+			<li> <a href="catalog.html">Tour Catalog</a> </li>
+			<li> <a href="coronavirus.html">COVID-19</a> </li>
+			<li> <a href="contact.html">Contact Us</a> </li>
+			<li id="search" class="last">
+				<form action="search.html" method="get">
+					<input type="search" name="search" />
+					<input type="submit" name="submit" value="Search" />
+				</form>
+				</li>
+		</ul>
+		
+		<!-- Header -->
+		<div id="header">
+			<h1>
+				<img src="../images/logo.png" alt="" width="447" height="451" />
+				G.K. Travels
+			</h1>
+		</div>
+		
+		<!-- Content -->
+		<div id="content">
+			
+			<!-- Column 1 -->
+			<a href="catalog/bhutan.html" class="box-content img-bhutan">
+				<p>
+					New discounts on trips to <strong>Bhutan</strong>!
+				</p>
+			</a>
+			
+			<!-- Column 2 -->
+			<a href="coronavirus.html" class="box-content img-covid">
+				<p>
+					Learn about <strong>travelling during the pandemic</strong>
+				</p>
+			</a>
+			
+			<!-- Column 3 -->
+			<a href="about.html" id="box-final" class="box-content box-last img-logo">
+				<p>
+					View our <strong>About Us</strong> page
+				</p>
+			</a>
+			
+		</div>
+		
+		<!-- Footer -->
+		<div id="footer">
+			<p> All content &copy; 2020 G.K. Travels, Inc.
+				<br />
+				Website designed and produced by The Sample Company, Inc.
+				All rights reserved. </p>
+		</div>		
+		
+	</body>
+</html>
+
+<!--
+	--- Notes and Information ---
+		-- Directory Guide --
+			STYLES: All styles in styles.css stylesheet in /css folder
+			PAGES: /pages folder contains all webpages
+				-- Directly in /pages are pages contained in navigation bar, including index.html,
+					contact.html, about.html, etc.
+				-- In /pages/catalog are individual tour pages, such as bhutan.html and ireland.html
+			IMAGES: /images folder contains all images, including all formats AND including favicon.ico
+				-- /images folder does NOT contain video
+			VIDEO/AUDIO: /media includes all video and audio in all formats
+			
+		-- ID and Class Content Organization for Styling --
+			** This is NOT an exhaustive list; please examine styles.css for a complete list of IDs
+			   and classes used to style these pages **
+			   
+			Primarily <div> elements are used to divide the page into three parts:
+				-- #header: The title of the page OR the default header with website name
+					-> If the header is NOT the default header, class .title is used
+					-> .small class is also sometimes used
+				-- #content: All page content is within this <div> element. <div> or other elements
+					with the following classes can be used:
+					-> .subtitle: a smaller heading than the top, often used with <p> or <h2> elements
+					-> .p-content: paragraphs of text
+						++ some other classes can be used to style these; such as .mono or .story
+					-> .box-content: "boxes", or tiles, of text (three per line)
+						++ usually links
+						++ use classes to define what image to display in box (i.e., .img-bhutan)
+					-> .form-content: forms
+					-> .img-content: images or figures with captions; sometimes nested in p-content
+				-- #footer: Footer of page with copyright information; virtually identical for
+					all webpages
+		
+		-- Extra Research Information --
+			Primarily all techniques used in all webpages and stylesheet are addressed in CTY
+			Intro to Web Design course. However, some extra research was done to utilize:
+				-- favicon.ico file for favicon (modeled on HTML in CTY homepage)
+				-- tel: link for phone number
+				-- some, limited CSS styles (many of which were in the course textbook but not
+					necessarily discussed in the course)
+	** Any additional questions can be addressed directly. **
+-->
+				

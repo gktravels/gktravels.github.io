@@ -1,0 +1,372 @@
+body {
+	background-color: #EFEFEF;
+	font-family: "Courier New", Consolas, monospace;
+	font-size: small;
+	width: 100%;
+}
+
+/* Alert Banner Styles */
+#alert {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	padding: 0.25em 2.5%;
+	height: 3em;
+	overflow: hidden;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 110%;
+	font-family: Verdana, sans-serif;
+	line-height: 1.5em;
+	z-index: 15;
+}
+#alert:hover {
+	height: auto;
+}
+body.with-alert {
+	padding-top: 3em;
+}
+
+/* Navigation Bar Styles */
+#nav {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	border-bottom: 2px solid #688770;
+	padding-top: 1em;
+	padding-bottom: 1.25em;
+}
+#nav li {
+	margin-right: 5%;
+	display: inline-block;
+	font-size: 150%;
+	font-weight: bold;
+}
+#nav li.last {
+	margin-right: 0%;
+}
+#nav a {
+	text-decoration: none;
+	color: #688770;
+}
+#nav a:hover {
+	color: #3A4A3E;
+}
+#nav li.current a {
+	color: black;
+}
+#nav .menu-logo {
+	width: 1.25em;
+	height: 1.25em;
+}
+#search input {
+	border: 1px solid #688770;
+	border-radius: 20px;
+	font-family: Verdana, sans-serif;
+	max-width: 10em;
+}
+
+/* Header Styles */
+#header {
+	width: 95%;
+	background-color: #CBD4CE;
+	margin: 0px auto;
+	font-size: 300%;
+	text-align: center;
+}
+#header h1 {
+	margin: auto;
+}
+#header img {
+	width: 1em;
+	height: 1em;
+	float: left;
+	margin-left: 5%;
+}
+#header.title {
+	background-color: #EFEFEF;
+	font-size: 235%;
+	border-bottom: 1px solid #688770;
+}
+#header.small {
+	font-size: 175%;
+	border-bottom: none;
+}
+#header.important {
+	background-color: #F27E44;
+	border-bottom: none;
+}
+
+/* Footer Styles */
+#footer {
+	width: 95%;
+	margin: 1.25em auto;
+	border-top: 2px solid #688770;
+	text-align: center;
+	clear: both;
+}
+
+/* Content Styles */
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	font-family: Verdana, Consolas, Georgia, sans-serif;
+}
+#content strong {
+	text-transform: uppercase;
+}
+#content .important {
+	color: red;
+}
+#content a.important:hover {
+	color: darkred;
+}
+/* --- Subtitle Styles --- */
+.subtitle {
+	font-weight: bold;
+	text-align: center;
+	font-size: 150%;
+	line-height: 1.5em;
+}
+.subtitle a {
+	text-decoration: none;
+	color: darkblue;
+}
+.subtitle a:hover {
+	color: #F27E44;
+}
+/* --- Box Content Styles --- */
+.box-content {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 30%;
+	max-height: 14em;
+	margin: auto 5% auto auto;
+	font-size: 200%;
+	text-decoration: none;
+	font-weight: bold;
+	overflow: hidden;
+}
+.box-last {
+	margin-right: 0%;
+}
+.box-content p {
+	padding-top: 30%;
+	padding-bottom: 30%;
+	min-height: 3em;
+	overflow: hidden;
+}
+.box-content p:hover {
+	opacity: 0.65;
+}
+#box-final {
+	margin-bottom: 2em;
+}
+/* --- Paragraph Content Styles --- */
+.p-content {
+	line-height: 1.5em;
+	text-align: justify;
+	font-size: 120%;
+}
+.p-content a {
+	text-decoration: none;
+	color: blue;
+}
+.p-content a:hover {
+	color: #AC4BC4;
+}
+.p-content.mono {
+	font-size: 125%;
+}
+.p-content.story {
+	font-family: Georgia, Garamond, serif;
+	font-size: 140%;
+}
+#first-letter {
+	float: left;
+	margin: 0px;
+	padding: 0.1em 0.05em 0px 0px;
+	line-height: 0.75em;
+	font-weight: bold;
+	font-family: Georgia, Garamond, serif;
+	font-size: 700%;
+}
+/* --- Image and Media Content Styles --- */
+.img-content {
+	float: left;
+	padding-right: 2em;
+	margin: 0px;
+	margin-bottom: 0.5em;
+	text-align: center;
+}
+#width-400 {
+	max-width: 420px;
+}
+.img-content.full {
+	width: 100%;
+	float: none;
+	margin: 2em auto;
+}
+.img-content.full img {
+	width: 100%;
+}
+.img-content.full #ratio-2-3 {
+	width: 100%;
+	height: 66.6%;
+}
+/* --- Form Content Styles --- */
+.form-content fieldset {
+	border-radius: 10px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-content legend {
+	font-weight: bold;
+	font-family: "Courier New", Verdana, Consolas, Garamond, sans-serif;
+	font-size: 150%;
+}
+.form-content .note {
+	padding-left: 1em;
+}
+.form-content .label {
+	float: left;
+	width: 20%;
+	padding-right: 5%;
+	text-align: right;
+}
+.form-content .txt-in {
+	width: 20em;
+}
+.form-content textarea {
+	width: 30em;
+	height: 8em;
+}
+.form-content .txt-in, .form-content textarea {
+	border: 1px solid #688770;
+	border-radius: 5px;
+	font-family: Verdana, Consolas, Garamond, sans-serif;
+	font-size: 100%;
+}
+.form-content .txt-in:focus, .form-content textarea:focus {
+	border-color: #F27E44;
+}
+.form-content .button {
+	background-color: #688770;
+	border: 1px solid #688770;
+	border-radius: 5px;
+	color: white;
+}
+.form-content .button:hover, .form-content .button:focus {
+	background-color: #F27E44;
+	border-color: #688770;
+}
+/* --- Table Styles --- */
+table {
+	font-size: 120%;
+	line-height: 1.5em;
+	border-collapse: collapse;
+}
+table.data td {
+	text-align: right;
+}
+table.data tfoot th, table.data tfoot td {
+	text-align: center;
+}
+thead th {
+	border-bottom: 2px solid black;
+}
+thead th.empty {
+	border: none;
+}
+tfoot td {
+	border-top: 1px solid black;
+	text-align: center;
+}
+table a {
+	text-decoration: none;
+	color: blue;
+}
+table a:hover {
+	color: #AC4BC4;
+}
+table.non-data, table .non-data {
+	font-size: 130%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 1.7em;
+}
+table.non-data tr {
+	border-bottom: 0.5px solid black;
+}
+tr.extra-heading {
+	border-top: 1px solid black;
+}
+td.n-a {
+	background-color: #9A9A9A;
+	color: white;
+}
+/* --- Other Special Class Styles --- */
+.mono {
+	font-family: "Courier New", Consolas, monospace;
+}
+.left-align {
+	text-align: left;
+}
+.direct {
+	margin-bottom: 0px;
+}
+h1.center, p.center, .p-content.center {
+	text-align: center;
+}
+table.center, .form-content.center, .box-content.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Background and Content Images */
+.img-logo p {
+	background: url("../images/logo.png") no-repeat
+				center center;
+	color: white;
+}
+.img-bhutan p {
+	background: url("../images/bhutan.jpg") no-repeat
+				center center;
+	color: white;
+	text-shadow: -1px -2px 0px black;
+}
+.img-covid p {
+	background: url("../images/virus.jpg") no-repeat
+				center center;
+	color: white;
+}
+.img-ireland p {
+	background: url("../images/ireland.jpg") no-repeat
+				center center;
+	color: white;
+}
+.img-elephant p {
+	background: url("../images/elephant.jpg") no-repeat
+				center center;
+	color: white;
+	text-shadow: -2px 0px 0px black;
+}
+.img-paris p {
+	background: url("../images/paris.jpg") no-repeat
+				center center;
+	color: white;
+}
+.img-none p {
+	background-color: #8BBFF7;
+	color: black;
+}
+
+	
