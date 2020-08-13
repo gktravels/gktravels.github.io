@@ -267,6 +267,9 @@ body.with-alert {
 	background-color: #F27E44;
 	border-color: #688770;
 }
+.form-content iframe {
+	height: auto;
+}
 /* --- Table Styles --- */
 table {
 	font-size: 120%;
